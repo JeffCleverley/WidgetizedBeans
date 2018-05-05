@@ -25,6 +25,7 @@ add_action( 'widgets_init', NS . '\register_widget_areas' );
  * @return void
  */
 function register_widget_areas() {
+
 	// Multidimensional array of parameters required to register widget using Beans API
 	// https://www.getbeans.io/code-reference/functions/beans_register_widget_area/
 	$widgets_areas = array(
@@ -44,6 +45,7 @@ function register_widget_areas() {
 			'description' => __( 'This is the bottom widget area on the landing page.', CHILD_TEXT_DOMAIN )
 		),
 	);
+
 	// Register each of the widget areas specified in the $widget_areas array
 	// https://www.getbeans.io/code-reference/functions/beans_register_widget_area/
 	// https://secure.php.net/manual/en/function.array-map.php
