@@ -1,0 +1,21 @@
+/*
+Theme Name: Widgetized Beans
+Theme URI: https://github.com/JeffCleverley/WidgetizedBeans
+Description: Beans Child Theme with a Widgetised Home Page
+Author: Jeff Cleverley
+Author URI: https://learningcurve.xyz
+Template: tm-beans
+Version: 1.0.0
+Text Domain: beans-learning-curve
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.home-top.widget-wrap,
+.home-middle.widget-wrap,
+.home-bottom.widget-wrap {
+    padding: 30% 10%;
+    background: white;
+    text-align: center;
+    margin: 10% auto;
+}
