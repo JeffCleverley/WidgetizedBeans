@@ -39,7 +39,7 @@ function beansdev_display_home_widget_layout() {
  *
  * @param string $home_widget	ID of the widget to be rendered.
  */
-function render_home_page_widgets( string $home_widget ) {
+function render_home_page_widgets( $home_widget ) {
 
 	// Check if the widget area is active before doing anything.
 	// https://developer.wordpress.org/reference/functions/is_active_sidebar/
